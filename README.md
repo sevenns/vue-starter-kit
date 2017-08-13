@@ -1,6 +1,10 @@
-# vue-starter-kit
+# Vue.js starter kit
 
-> Starter kit with Vue.js
+> Starter kit with Vue.js, sass and pug
+
+# Requirements
+
+You need [nodejs](https://nodejs.org/en/) with npm
 
 ## Build Setup
 
