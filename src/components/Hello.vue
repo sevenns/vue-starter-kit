@@ -1,6 +1,8 @@
 <template lang='pug'>
 
 .hello
+  transition(name='preloader-fade')
+    preloader(v-if='loading')
   h1 {{ msg }}
 
 </template>
@@ -9,12 +11,21 @@
 
 <script>
 
+import preloader from './Preloader'
+
 export default {
   name: 'hello',
+  components: { preloader },
   data () {
     return {
-      msg: 'Vue.js starter kit'
+      msg: 'Vue.js starter kit',
+      loading: true
     }
+  },
+  mounted () {
+    setTimeout(() => {
+      this.loading = false
+    }, 500)
   }
 }
 
