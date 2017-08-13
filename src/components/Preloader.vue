@@ -32,6 +32,7 @@ export default {
   width: 100%
   height: 100%
   background-color: #FFF
+  z-index: 99999;
 
 .preloader-fade-enter-active, .preloader-fade-leave-active
   transition: opacity .5s ease, transform .5s ease
