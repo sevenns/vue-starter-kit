@@ -1,7 +1,7 @@
 .DS_Store
 node_modules/
 dist/
-src/components/icons/*.js
+src/components/icons/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
