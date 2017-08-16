@@ -41,30 +41,31 @@ export default {
 
 <style lang='sass'>
 
-@import ../sass/common/variables
-@import ../sass/common/mixins
+@import '../sass/common/variables'
+@import '../sass/common/mixins'
+
+
+.hello
+  h1
+    @include font(light)
 
 .hello__content
-  display: flex
   align-items: center
+  display: flex
   justify-content: center
   min-height: 100vh
 
 .hello__footer
-  position: absolute
   bottom: 16px
-  width: 100%
   display: flex
-  justify-content: center
-  font-weight: 300
-  letter-spacing: 2px
   font-size: rem(18px)
+  font-weight: 300
+  justify-content: center
+  letter-spacing: 2px
+  position: absolute
+  width: 100%
 
   a
+    color: $grey
     text-decoration: none
-    color: #35495E
-
-.hello h1
-  @include font(light)
-
 </style>

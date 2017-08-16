@@ -2,16 +2,16 @@
   box-sizing: border-box
 
 html
-  font-size: $baseSize!important
+  font-size: $base-fsize !important
   @include font(default)
 
 body
-  font-size: $baseSize!important
-  min-width: 320px
-  position: relative
-  line-height: 1.6
-  overflow-x: hidden
   color: $grey
+  font-size: $base-fsize !important
+  line-height: 1.6
+  min-width: 320px
+  overflow-x: hidden
+  position: relative
   @include font(default)
 
 ul
@@ -19,5 +19,5 @@ ul
   padding: 0
 
 textarea, input, select
-  border-radius: 0!important
-  -webkit-appearance: none!important
+  -webkit-appearance: none !important
+  border-radius: 0 !important

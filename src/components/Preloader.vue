@@ -1,5 +1,5 @@
 <template lang='pug'>
-  
+
 .preloader
   vue-loading(type='bubbles', color='#35495E', :size='{ width: "72px", height: "72px"}')
 
@@ -21,18 +21,18 @@ export default {
 
 
 <style lang='sass' scoped>
-  
+
 .preloader
-  display: flex
   align-items: center
+  background-color: #fff
+  display: flex
+  height: 100%
   justify-content: center
+  left: 0
   position: fixed
   top: 0
-  left: 0
   width: 100%
-  height: 100%
-  background-color: #FFF
-  z-index: 99999;
+  z-index: 99999
 
 .preloader-fade-enter-active, .preloader-fade-leave-active
   transition: opacity .5s ease, transform .5s ease
