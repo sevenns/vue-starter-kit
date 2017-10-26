@@ -2,6 +2,10 @@
 
 > Starter kit with Vue.js, sass and pug
 
+# Recommendation
+
+Use [Nuxt.js starter kit](https://github.com/sevenns/nuxt-starter-kit) instead this 
+
 # Requirements
 
 You need [nodejs](https://nodejs.org/en/) with npm
